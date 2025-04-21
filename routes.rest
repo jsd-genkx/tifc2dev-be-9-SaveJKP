@@ -1,0 +1,12 @@
+### create new item
+GET http://localhost:3000/books/1
+Content-Type: application/json
+###
+GET http://localhost:3000/books/5
+Content-Type: application/json
+###
+GET http://localhost:3000/books?genre=sdfsdf
+Content-Type: application/json
+###
+GET http://localhost:3000/books?genre=fiction
+Content-Type: application/json

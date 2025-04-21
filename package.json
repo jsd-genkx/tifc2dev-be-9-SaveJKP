@@ -1,11 +1,9 @@
 {
   "dependencies": {
-    "express": "^4.19.2",
-    "nodemon": "^3.1.4"
+    "express": "^5.1.0"
   },
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "node --watch index.js"
   }
-
 }
